@@ -1,17 +1,17 @@
 import React from "react";
 import SideBar from "../SIdeBar/SideBar";
-import From from "./Form";
 import Heading from "./Heading";
+import Form from "../MainSection/Form";
 
 function HomePage() {
   return (
-    <main className="flex w-full min-h-screen ">
+    <main className="flex w-full min-h-screen relative top-0 left-0 ">
       {/* sidebar */}
       <SideBar />
       {/* tasksInput */}
-      <div className="w-3/4 h-full flex flex-col gap-y-12 items-center justify-center ">
-          <Heading />
-          <From />
+      <div className="w-full md:w-3/4 h-full flex flex-col gap-y-12 items-center justify-center ">
+        <Heading />
+        <Form />
       </div>
     </main>
   );

@@ -7,7 +7,7 @@ import { ChevronDownIcon } from "@radix-ui/react-icons";
 function Status() {
   const dropDownData = ["All", "Completed", "Un-Completed"];
   return (
-    <div className=" w-4/5 flex justify-start min-w-fit mt-12  outline-none border-green-400 border-b-2 pb-4">
+    <div className=" w-4/5 flex justify-start min-w-fit mt-12  outline-none border-green-400 border-b-2 pb-4 ">
       <Select.Root>
         <Select.Trigger
           className="flex items-center w-fit justify-between rounded px-[15px] text-[13px] leading-none h-[25px] gap-3 bg-primary border-none text-violet11 shadow  outline-none group"
